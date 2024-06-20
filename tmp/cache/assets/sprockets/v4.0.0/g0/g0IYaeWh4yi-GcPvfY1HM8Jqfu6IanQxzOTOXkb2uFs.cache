@@ -1,0 +1,46 @@
+{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/layouts/application.html.erb?type=application/html+ruby&id=31a2612661182d4586531c23c401f2598baa48d13556a8ea7bcfe01cc16b4374:ET:load_pathI"app/assets/images;T:filenameI"Vapp/assets/images/ProtoSpace素材（Rails7）/views/layouts/application.html.erb;T:	nameI";ProtoSpace素材（Rails7）/views/layouts/application;T:logical_pathI"DProtoSpace素材（Rails7）/views/layouts/application.html.erb;T:content_typeI"application/html+ruby;T:sourceI"x<!DOCTYPE html>
+<html>
+  <head>
+    <title>Protospace</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="inner">
+        <div class="nav">
+          <div class="nav__left">
+            <%= link_to image_tag("logo.png", class: :logo), root_path %>
+          </div>
+          <%# ログインしているときは以下を表示するようにしましょう %>
+            <%# <div class="nav__right"> %>
+              <%# <%= link_to "ログアウト", root_path, class: :nav__logout %>
+              <%# <%= link_to "New Proto", root_path, class: :nav__btn %>
+            <%# </div> %>
+          <%# // ログインしているときは上記を表示するようにしましょう %>
+          <%# ログインしていないときは以下を表示するようにしましょう %>
+            <div class="nav__right">
+              <%= link_to "ログイン", root_path, class: :nav__btn %>
+              <%= link_to "新規登録", root_path, class: :nav__btn %>
+            </div>
+          <%# // ログインしていないときは上記を表示するようにしましょう %>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <footer class="footer">
+      <p class="copyright">Copyright © PROTO SPACE All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"|file-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/layouts/application.html.erb;TTF:charsetI"
+utf-8;F:digest"%O�[�r�12����L��f�h�K��T�=�Վ:lengthix:environment_versionI"1.0;T:dependencies_digest"%�>7s�xۮX|K��5�Ihm\��0�c���:idI"E31a2612661182d4586531c23c401f2598baa48d13556a8ea7bcfe01cc16b4374;F

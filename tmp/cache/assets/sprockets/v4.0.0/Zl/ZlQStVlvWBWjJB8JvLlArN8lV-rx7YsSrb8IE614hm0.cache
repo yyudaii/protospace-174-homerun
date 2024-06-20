@@ -1,0 +1,12 @@
+{:uriI"Êfile://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/new.html.erb?type=application/html+ruby&id=10c42e3d15078572ab087153966df78df8b6dfd6803a93ba6500df16483b00b2:ET:load_pathI"app/assets/images;T:filenameI"Qapp/assets/images/ProtoSpaceç´ æï¼ˆRails7ï¼‰/views/prototypes/new.html.erb;T:	nameI"6ProtoSpaceç´ æï¼ˆRails7ï¼‰/views/prototypes/new;T:logical_pathI"?ProtoSpaceç´ æï¼ˆRails7ï¼‰/views/prototypes/new.html.erb;T:content_typeI"application/html+ruby;T:sourceI"ì<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">æ–°è¦ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ—æŠ•ç¨¿</h2>
+        <%# éƒ¨åˆ†ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã§ãƒ•ã‚©ãƒ¼ãƒ ã‚’è¡¨ç¤ºã™ã‚‹ %>
+    </div>
+  </div>
+</div>;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"wfile-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/new.html.erb;TTF:charsetI"
+utf-8;F:digest"%ImíQ¥ò«@'×:FëØ™r*ƒsÎB¡,@ìÅ7yH\:lengthiì:environment_versionI"1.0;T:dependencies_digest"%ìêdG=4Ó¥U^!bFÜşğ2Ûÿç1ÌuñPÃ:idI"E10c42e3d15078572ab087153966df78df8b6dfd6803a93ba6500df16483b00b2;F

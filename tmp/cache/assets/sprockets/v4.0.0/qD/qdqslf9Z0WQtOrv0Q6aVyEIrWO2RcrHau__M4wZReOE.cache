@@ -1,0 +1,55 @@
+{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/devise/registrations/new.html.erb?type=application/html+ruby&id=9ee4acbbb72f5f1444518b33bdd178b067caa25c18eb43e760e7e1e053f7b0da:ET:load_pathI"app/assets/images;T:filenameI"[app/assets/images/ProtoSpace素材（Rails7）/views/devise/registrations/new.html.erb;T:	nameI"@ProtoSpace素材（Rails7）/views/devise/registrations/new;T:logical_pathI"IProtoSpace素材（Rails7）/views/devise/registrations/new.html.erb;T:content_typeI"application/html+ruby;T:sourceI"�<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">ユーザー新規登録</h2>
+
+        <%# 「モデル名」にはUserモデルであれば@userを渡しましょう。%>
+        <%# 「新規登録機能へのパス」は、devise導入後にrails routesを実行してdevise/registrations#createへのパスを確認し、記載してください。 %>
+        <%= form_with model: モデル名, url: 新規登録機能へのパス, local: true do |f| %>
+
+        <div class="field">
+          <%= f.label :hoge, "メールアドレス" %><br />
+          <%= f.email_field :hoge, id:"user_email", autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "パスワード（6文字以上）" %><br />
+          <%= f.password_field :hoge, id:"user_password", autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "パスワード再入力" %><br />
+          <%= f.password_field :password_confirmation, id:"user_password_confirmation", autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "ユーザー名" %><br />
+          <%= f.text_field :hoge, id:"user_name" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "プロフィール" %><br />
+          <%= f.text_area :hoge, class: :form__text, id:"user_profile" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "所属" %><br />
+          <%= f.text_area :hoge, class: :form__text, id:"user_occupation" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hoge, "役職" %><br />
+          <%= f.text_area :hoge, class: :form__text, id:"user_position" %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "新規登録", class: :form__btn  %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"|file-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/devise/registrations/new.html.erb;TTF:charsetI"
+utf-8;F:digest"%�f�����(إ����ʙ�q��dI���9��:lengthi�:environment_versionI"1.0;T:dependencies_digest"%s�\�N0��$�R�P����L��n����[f�:idI"E9ee4acbbb72f5f1444518b33bdd178b067caa25c18eb43e760e7e1e053f7b0da;F

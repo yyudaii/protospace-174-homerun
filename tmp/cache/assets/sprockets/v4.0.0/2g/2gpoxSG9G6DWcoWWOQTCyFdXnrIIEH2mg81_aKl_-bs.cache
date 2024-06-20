@@ -1,0 +1,59 @@
+{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/show.html.erb?type=application/html+ruby&id=e687f26cdad614159279eb31984ea9a675cbde5af11bf756aaee08c8ed3e9346:ET:load_pathI"app/assets/images;T:filenameI"Rapp/assets/images/ProtoSpace素材（Rails7）/views/prototypes/show.html.erb;T:	nameI"7ProtoSpace素材（Rails7）/views/prototypes/show;T:logical_pathI"@ProtoSpace素材（Rails7）/views/prototypes/show.html.erb;T:content_typeI"application/html+ruby;T:sourceI"~	<main class="main">
+  <div class="inner">
+    <div class="prototype__wrapper">
+      <p class="prototype__hedding">
+        <%= "プロトタイプのタイトル"%>
+      </p>
+      <%= link_to "by プロトタイプの投稿者", root_path, class: :prototype__user %>
+      <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
+        <div class="prototype__manage">
+          <%= link_to "編集する", root_path, class: :prototype__btn %>
+          <%= link_to "削除する", root_path, class: :prototype__btn %>
+        </div>
+      <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
+      <div class="prototype__image">
+        <%= image_tag "プロトタイプの画像" %>
+      </div>
+      <div class="prototype__body">
+        <div class="prototype__detail">
+          <p class="detail__title">キャッチコピー</p>
+          <p class="detail__message">
+            <%= "プロトタイプのキャッチコピー" %>
+          </p>
+        </div>
+        <div class="prototype__detail">
+          <p class="detail__title">コンセプト</p>
+          <p class="detail__message">
+            <%= "プロトタイプのコンセプト" %>
+          </p>
+        </div>
+      </div>
+      <div class="prototype__comments">
+        <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
+          <%# <%= form_with model: モデル名,local: true do |f|%>
+            <div class="field">
+              <%# <%= f.label :hoge, "コメント" %><br />
+              <%# <%= f.text_field :hoge, id:"comment_content" %>
+            </div>
+            <div class="actions">
+              <%# <%= f.submit "送信する", class: :form__btn  %>
+            </div>
+          <%# <% end %>
+        <%# // ログインしているユーザーには上記を表示する %>
+        <ul class="comments_lists">
+          <%# 投稿に紐づくコメントを一覧する処理を記述する %>
+            <li class="comments_list">
+              <%# <%= " コメントのテキスト "%>
+              <%# <%= link_to "（ ユーザー名 ）", root_path, class: :comment_user %>
+            </li>
+          <%# // 投稿に紐づくコメントを一覧する処理を記述する %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"xfile-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/show.html.erb;TTF:charsetI"
+utf-8;F:digest"%Q�'���ڌ�)�A�������ϔ��"�?�q���:lengthi~	:environment_versionI"1.0;T:dependencies_digest"%Y\�^e�0SYy�&��A��D��7S��5×Փm�:idI"Ee687f26cdad614159279eb31984ea9a675cbde5af11bf756aaee08c8ed3e9346;F

@@ -1,0 +1,29 @@
+{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/_form.html.erb?type=application/html+ruby&id=6378fd0f054dfaf9db633745d5b1702341f14b13a776775978ba192e3a79d416:ET:load_pathI"app/assets/images;T:filenameI"Sapp/assets/images/ProtoSpace素材（Rails7）/views/prototypes/_form.html.erb;T:	nameI"8ProtoSpace素材（Rails7）/views/prototypes/_form;T:logical_pathI"AProtoSpace素材（Rails7）/views/prototypes/_form.html.erb;T:content_typeI"application/html+ruby;T:sourceI"�<%= form_with model: モデル名, local: true do |f|%>
+  <div class="field">
+    <%= f.label :hoge, "プロトタイプの名称" %><br />
+    <%= f.text_field :hoge, id:"prototype_title" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hoge, "キャッチコピー" %><br />
+    <%= f.text_area :hoge, class: :form__text, id:"prototype_catch_copy" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hoge, "コンセプト" %><br />
+    <%= f.text_area :hoge, class: :form__text, id:"prototype_concept" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :hoge, "プロトタイプの画像" %><br />
+    <%= f.file_field :hoge, id:"prototype_image" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "保存する", class: :form__btn  %>
+  </div>
+<% end %>;T:metadata{
+:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"yfile-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/_form.html.erb;TTF:charsetI"
+utf-8;F:digest"%]����>��x���^�)m2�ƛ��e1��o:lengthi�:environment_versionI"1.0;T:dependencies_digest"%�K7�?�PËF6?ت��c\P�TRl�Œh�:idI"E6378fd0f054dfaf9db633745d5b1702341f14b13a776775978ba192e3a79d416;F
