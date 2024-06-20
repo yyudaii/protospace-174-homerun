@@ -1,15 +1,0 @@
-{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/_prototype.html.erb?type=application/html+ruby&id=30e15044ae6525523131ef5133e62ff8f60e11f1ccf00f44dbc8f4ed5bf67107:ET:load_pathI"app/assets/images;T:filenameI"Xapp/assets/images/ProtoSpace素材（Rails7）/views/prototypes/_prototype.html.erb;T:	nameI"=ProtoSpace素材（Rails7）/views/prototypes/_prototype;T:logical_pathI"FProtoSpace素材（Rails7）/views/prototypes/_prototype.html.erb;T:content_typeI"application/html+ruby;T:sourceI"�<div class="card">
-  <%= link_to image_tag("プロトタイプの画像", class: :card__img ), root_path%>
-  <div class="card__body">
-    <%= link_to "プロトタイプのタイトル", root_path, class: :card__title%>
-    <p class="card__summary">
-      <%= "プロトタイプのキャッチコピー" %>
-    </p>
-    <%= link_to "by プロトタイプの投稿者名", root_path, class: :card__user %>
-  </div>
-</div>;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"~file-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/_prototype.html.erb;TTF:charsetI"
-utf-8;F:digest"%
-]Irc}"�@(�DW��rv�/�Y�&~:lengthi�:environment_versionI"1.0;T:dependencies_digest"%�����Y�E�	h٦c�Xm�����zz���:idI"E30e15044ae6525523131ef5133e62ff8f60e11f1ccf00f44dbc8f4ed5bf67107;F

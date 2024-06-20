@@ -1,39 +1,0 @@
-{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/users/show.html.erb?type=application/html+ruby&id=cac9f326e160b7b4409436379d633df46e92a3e4d591c6d16c8c46af046396a5:ET:load_pathI"app/assets/images;T:filenameI"Mapp/assets/images/ProtoSpace素材（Rails7）/views/users/show.html.erb;T:	nameI"2ProtoSpace素材（Rails7）/views/users/show;T:logical_pathI";ProtoSpace素材（Rails7）/views/users/show.html.erb;T:content_typeI"application/html+ruby;T:sourceI"�<div class="main">
-  <div class="inner">
-    <div class="user__wrapper">
-      <h2 class="page-heading">
-        <%= "ユーザー名さんの情報"%>
-      </h2>
-      <table class="table">
-        <tbody>
-          <tr>
-            <th class="table__col1">名前</th>
-            <td class="table__col2"><%= "ユーザー名" %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">プロフィール</th>
-            <td class="table__col2"><%= "ユーザーのプロフィール" %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">所属</th>
-            <td class="table__col2"><%= "ユーザーの所属" %></td>
-          </tr>
-          <tr>
-            <th class="table__col1">役職</th>
-            <td class="table__col2"><%= "ユーザーの役職" %></td>
-          </tr>
-        </tbody>
-      </table>
-      <h2 class="page-heading">
-        <%= "ユーザー名さんのプロトタイプ"%>
-      </h2>
-      <div class="user__card">
-        <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
-      </div>
-    </div>
-  </div>
-</div>;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"sfile-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/users/show.html.erb;TTF:charsetI"
-utf-8;F:digest"%C�lS�B! � 9�r�L��㈻jl�͝nl:lengthi�:environment_versionI"1.0;T:dependencies_digest"%��zȊ��.2~�3�_j���]��*��Et�:idI"Ecac9f326e160b7b4409436379d633df46e92a3e4d591c6d16c8c46af046396a5;F

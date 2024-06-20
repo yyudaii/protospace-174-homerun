@@ -1,20 +1,0 @@
-{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/index.html.erb?type=application/html+ruby&id=9615e264bd69eb03a0549f40cec1982c6bd9960d0a6840dd97fa27267ea081a0:ET:load_pathI"app/assets/images;T:filenameI"Sapp/assets/images/ProtoSpace素材（Rails7）/views/prototypes/index.html.erb;T:	nameI"8ProtoSpace素材（Rails7）/views/prototypes/index;T:logical_pathI"AProtoSpace素材（Rails7）/views/prototypes/index.html.erb;T:content_typeI"application/html+ruby;T:sourceI"
-<main class="main">
-  <div class="inner">
-    <%# ログインしているときは以下を表示する %>
-      <%# <div class="greeting"> %>
-        <%# こんにちは、 %>
-        <%# <%= link_to "ユーザー名さん", root_path, class: :greeting__link%>
-      <%# </div> %>
-    <%# // ログインしているときは上記を表示する %>
-    <div class="card__wrapper">
-      <%# 投稿機能実装後、部分テンプレートでプロトタイプ投稿一覧を表示する %>
-    </div>
-  </div>
-</main>
-;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"yfile-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/prototypes/index.html.erb;TTF:charsetI"
-utf-8;F:digest"%�����?-����R�ȱv�"px^X�y��:lengthi
-:environment_versionI"1.0;T:dependencies_digest"%��-��?��V�S�G���Z�tle�:�o+g:idI"E9615e264bd69eb03a0549f40cec1982c6bd9960d0a6840dd97fa27267ea081a0;F

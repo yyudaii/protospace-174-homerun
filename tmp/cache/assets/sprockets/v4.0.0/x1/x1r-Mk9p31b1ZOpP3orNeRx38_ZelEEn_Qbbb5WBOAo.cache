@@ -1,29 +1,0 @@
-{:uriI"�file://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/devise/sessions/new.html.erb?type=application/html+ruby&id=ba49e2671c16a6aff9e3d3e5a2594f598b3ddbf510d08b42030ba6f287ba3772:ET:load_pathI"app/assets/images;T:filenameI"Vapp/assets/images/ProtoSpace素材（Rails7）/views/devise/sessions/new.html.erb;T:	nameI";ProtoSpace素材（Rails7）/views/devise/sessions/new;T:logical_pathI"DProtoSpace素材（Rails7）/views/devise/sessions/new.html.erb;T:content_typeI"application/html+ruby;T:sourceI"-<div class="main">
-  <div class="inner">
-    <div class="form__wrapper">
-      <h2 class="page-heading">ユーザーログイン</h2>
-        <%# 「モデル名」にはUserモデルであれば@userを渡しましょう。%>
-        <%# 「ログイン機能へのパス」は、devise導入後にrails routesを実行してdevise/sessions#createへのパスを確認し、記載してください。 %>
-        <%= form_with model: モデル名, url: ログイン機能へのパス, local: true do |f| %>
-
-        <div class="field">
-          <%= f.label :hoge, "メールアドレス" %><br />
-          <%= f.email_field :hoge, id:"user_email", autofocus: true, autocomplete: "email" %>
-        </div>
-
-        <div class="field">
-          <%= f.label :hoge, "パスワード（6文字以上）" %><br />
-          <%= f.password_field :hoge, id:"user_password", autocomplete: "current-password" %>
-        </div>
-
-        <div class="actions">
-          <%= f.submit "ログイン", class: :form__btn %>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</div>;T:metadata{
-:dependencieso:Set:
-@hash}
-I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"Jprocessors:type=application/html+ruby&file_type=application/html+ruby;TTI"|file-digest://app/assets/images/ProtoSpace%E7%B4%A0%E6%9D%90%EF%BC%88Rails7%EF%BC%89/views/devise/sessions/new.html.erb;TTF:charsetI"
-utf-8;F:digest"%�Rn��z{�B�~��� �����ƾ�Щ+:lengthi-:environment_versionI"1.0;T:dependencies_digest"%O�U��k����T0����H�ɀW�[�:idI"Eba49e2671c16a6aff9e3d3e5a2594f598b3ddbf510d08b42030ba6f287ba3772;F
