@@ -1,6 +1,6 @@
 class PrototypesController < ApplicationController
   def index
-    @prototype = Prototype.all
+    @prototypes = Prototype.all
   end
 
   def new
@@ -17,11 +17,12 @@ class PrototypesController < ApplicationController
   end
 
   def show
+    @prototype = Prototype.find(params[:id])
   end
 
 private
   def prototype_params
-    params.require(:prototype).permit(:title, :catch_copy, :cocept, :image).merge(user_id: current_user.id)
+    params.require(:prototype).permit(:title, :catch_copy, :concept, :image).merge(user_id: current_user.id)
   end
 end
 
