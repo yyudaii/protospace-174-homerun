@@ -49,7 +49,9 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: protospace_174_homerun_production
-  username: protospace_174_homerun
-  password: <%= ENV["PROTOSPACE_174_HOMERUN_DATABASE_PASSWORD"] %>
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
+
+
