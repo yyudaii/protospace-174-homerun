@@ -2,8 +2,8 @@
   <div class="inner">
     <%# ログインしているときは以下を表示する %>
     <div class="greeting">
-        こんにちは、
-        <a class="greeting__link" href="/users/817"></a>
+      こんにちは、
+      <%= link_to "ユーザー名", "/users/#{current_user.id}", class: :greeting__link %> さん
     </div>
     <%# // ログインしているときは上記を表示する %>
     <div class="card__wrapper">
