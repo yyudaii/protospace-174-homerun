@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'prototypes#index'
+  root to: "prototypes#index"
   devise_for :users
-
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :prototypes, only: [:index, :new, :crete, :show]
+　　　　
 end
