@@ -26,5 +26,3 @@ private
   end
 end
 
-# current_user.id は不要？
-
