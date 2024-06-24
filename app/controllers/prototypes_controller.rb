@@ -22,9 +22,9 @@ class PrototypesController < ApplicationController
     @prototype = Prototype.find(params[:id])
   end
 
-  def destory
-    prototype = Prototype.find(params[:id])
-    prototype.destory
+  def destroy
+    prototypes = Prototype.find(params[:id])
+    prototypes.destroy
     redirect_to root_path
   end
 
