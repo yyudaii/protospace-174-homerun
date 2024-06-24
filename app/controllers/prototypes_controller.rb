@@ -21,7 +21,9 @@ class PrototypesController < ApplicationController
   end
 
   def destory
-
+    prototype = Prototype.find(params[:id])
+    prototype.destory
+    redirect_to root_path
   end
 
 private
