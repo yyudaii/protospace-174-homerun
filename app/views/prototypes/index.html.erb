@@ -2,8 +2,11 @@
   <div class="inner">
       <div class="greeting"> 
         こんにちは、
-        <%= link_to "ユーザー名さん", root_path, class: :greeting__link%>
-      </div>
+      <% if user_signed_in? %>
+        <%= link_to "#{current_user.name} さん", root_path, class: :greeting__link %>
+      <% else %>
+        ゲストさん
+      <% end %>
   <div class="card__wrapper">
     <% @prototypes.each do |prototype| %>
       <%= render partial: "prototype", locals: {prototype: prototype} %>
