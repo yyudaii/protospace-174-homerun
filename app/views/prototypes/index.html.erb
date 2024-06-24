@@ -8,9 +8,9 @@
         ゲストさん
       <% end %>
   <div class="card__wrapper">
-    <% @prototypes.each do |prototype| %>
-      <%= render partial: "prototype", locals: {prototype: prototype} %>
-    <% end %>
+    <%# <% @prototypes.each do |prototype| %>
+      <%= render partial: "prototype", collection: @prototypes %>
+    <%# <% end %>
   </div>
 
   </div>
