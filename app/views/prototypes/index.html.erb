@@ -3,14 +3,14 @@
       <div class="greeting"> 
         こんにちは、
       <% if user_signed_in? %>
-        <%= link_to "#{current_user.name} さん", root_path, class: :greeting__link %>
+        <%= link_to "#{current_user.name} さん", user_path(current_user), class: :greeting__link %>
       <% else %>
         ゲストさん
       <% end %>
   <div class="card__wrapper">
-    <% @prototypes.each do |prototype| %>
-      <%= render partial: "prototype", locals: {prototype: prototype} %>
-    <% end %>
+    <%# <% @prototypes.each do |prototype| %>
+      <%= render partial: "prototype", collection: @prototypes %>
+    <%# <% end %>
   </div>
 
   </div>
